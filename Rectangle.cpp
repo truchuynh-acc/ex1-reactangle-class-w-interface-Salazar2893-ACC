@@ -15,7 +15,7 @@ Rectangle::Rectangle() {
 }
 
 // Setters
-bool Rectangle::set(double tempLength, tempWidth){
+bool Rectangle::set(double tempLength, double tempWidth){
 
     if (tempLength > 0.0 && tempWidth > 0.0){
         length = tempLength;
