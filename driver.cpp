@@ -17,8 +17,7 @@ int main(){
     std::cout << "Length: " << myRectangle.getLength() << std::endl;
     std::cout << "Width: " << myRectangle.getWidth() << std::endl;
 
-    myRectangle.setLength(10);
-    myRectangle.setWidth(5);
+    myRectangle.set(10);
     std::cout << "Rectangle's Updated Measurements" << std::endl;
     std::cout << "Length: " << myRectangle.getLength() << std::endl;
     std::cout << "Width: " << myRectangle.getWidth() << std::endl;
