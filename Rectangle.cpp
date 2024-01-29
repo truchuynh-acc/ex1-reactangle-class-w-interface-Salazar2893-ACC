@@ -37,6 +37,7 @@ double Rectangle::getWidth() const {
     return width;
 }
 
+// Calculate Area
 double Rectangle::getArea() const {
     return length * width;
 }
