@@ -10,7 +10,7 @@ Course: COSC 2436 PF III Data Structures
 #include <iostream>
 #include "Rectangle.h"
 
-int main(){
+int main() {
 
     Rectangle myRectangle;
 
@@ -18,7 +18,7 @@ int main(){
     std::cout << "Length: " << myRectangle.getLength() << std::endl;
     std::cout << "Width: " << myRectangle.getWidth() << std::endl;
 
-    myRectangle.set(10);
+    myRectangle.set(10.0, 5.0);
     std::cout << "Rectangle's Updated Measurements" << std::endl;
     std::cout << "Length: " << myRectangle.getLength() << std::endl;
     std::cout << "Width: " << myRectangle.getWidth() << std::endl;
