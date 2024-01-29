@@ -4,8 +4,8 @@ Assignment: 1
 Description: Header File
 */
 
-#ifndef RECTANGLE_
-#define RECTANGLE_
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
 
 #include "RectangleInterface.h"
 
@@ -16,12 +16,12 @@ public:
     Rectangle();
 
     // Setter
-    bool set(double, double);
+    bool set(double tempLength, double tempWidth);
 
     // Getters
-    double getLength();
-    double getWidth();
-    double getArea();
+    double getLength() const;
+    double getWidth() const;
+    double getArea() const;
 
 private:
     double length;
