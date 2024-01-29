@@ -4,8 +4,8 @@ Assignment: 1
 Description: Rectangle Interface
 */
 
-#ifdef RECTANGLE_INTERFACE_
-#define RECTANGLE_INTERFACE_
+#ifndef RECTANGLE_INTERFACE_H
+#define RECTANGLE_INTERFACE_H
 
 class RectangleInterface {
 
