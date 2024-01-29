@@ -7,6 +7,7 @@ Course: COSC 2436 PF III Data Structures
 1/28/24
 */
 
+#include <iostream>
 #include "Rectangle.h"
 
 int main(){
